@@ -1,0 +1,4 @@
+import "./globals.css";
+import type { Metadata } from "next";
+export const metadata:Metadata={title:"Find Your Religion®",description:"Uniforms, rituals and objects for sovereign individuals."};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><header><a className="mark" href="/">FIND YOUR RELIGION<sup>®</sup></a><nav><a href="#athletics">ATHLETICS</a><a href="#ritual">RITUAL</a><a href="#essentials">ESSENTIALS</a><a href="#editions">EDITIONS</a><a href="#objects">OBJECTS</a></nav><button className="bag">BAG 0</button></header>{children}<footer><span>FIND YOUR RELIGION®</span><span>NO PRESCRIBED PATH.</span></footer></body></html>}
