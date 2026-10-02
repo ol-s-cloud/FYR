@@ -1,4 +1,4 @@
 import "./globals.css";
-import type { Metadata } from "next";
-export const metadata:Metadata={title:"Find Your Religion®",description:"Clothing, ritual, scent and objects for a life considered."};
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><header><a className="mark" href="/">FIND YOUR RELIGION<sup>®</sup></a><nav><a href="/#shop">SHOP</a><a href="/#future">FYR NEXT</a><a href="/#editions">EDITIONS</a><a href="/#concierge">AI STYLIST</a><a href="/#private-releases">PRIVATE</a></nav><div className="headActions"><a href="/#concierge">YOUR FYR</a><button className="bag">BAG 0</button></div></header>{children}<footer><span>FIND YOUR RELIGION®</span><span>FIND YOUR VIBE.</span></footer></body></html>}
+import type {Metadata} from "next";
+export const metadata:Metadata={title:"Find Your Religion®",description:"Original garments, selected objects and private styling."};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><header className="houseHeader"><a className="mark" href="/">FIND YOUR RELIGION<sup>®</sup></a><nav><a href="/#collection">COLLECTION</a><a href="/#private">PRIVATE STYLING</a><a href="/#list">PRIVATE LIST</a></nav><div className="headActions"><a href="/stylist">YOUR FYR</a><button className="bag">BAG 0</button></div></header>{children}<footer><span>FIND YOUR RELIGION®</span><span>GLASGOW — WORLDWIDE</span></footer></body></html>}
